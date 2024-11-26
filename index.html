@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>0Prog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/descarga.png" alt="0 programacion" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard Hanrick">0 Programación</h1>
+
+          <p class="title">Tutoriales</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mostrar contactos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Correo electrónico</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">Cristian.cesena@uabc.edu.mx
+              </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Teléfono</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Fecha de nacimiento</p>
+
+              <time datetime="1982-06-23">23 de junio de 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Ubicación</p>
+
+              <address>Ensenada, B.C.</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/?lang=es&mx=2" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/cristianr.cesena/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <div class="main-content">
+
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Nosotros</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumen</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Tutoriales</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contacto</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <article class="about active" data-page="nosotros">
+
+        <header>
+          <h2 class="h2 article-title">Acerca de mí</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            La programación es la clave para desbloquear un mundo lleno de posibilidades tecnológicas. Es la herramienta
+            fundamental que impulsa desde las aplicaciones móviles más populares hasta los sistemas que usamos a diario.
+            A través del código, podemos crear soluciones innovadoras, diseñar aplicaciones útiles, desarrollar páginas
+            web interactivas y mucho más.
+          </p>
+
+          <p>
+            En esta sección, te invitamos a sumergirte en el fascinante mundo de la programación. Aquí encontrarás
+            recursos, tutoriales y blogs especializados para aprender y mejorar tus habilidades en diversas áreas de la
+            tecnología. Ya seas un principiante que desea entender los fundamentos o un programador experimentado que
+            busca perfeccionar su dominio, este espacio está diseñado para ayudarte a crecer.
+          </p>
+        </section>
+
+        <!--
+          - servicio
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Lo que hacemos</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="ícono de diseño" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Diseño web</h4>
+
+                <p class="service-item-text">
+                  El diseño más moderno y de alta calidad.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="ícono de desarrollo web" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo web</h4>
+
+                <p class="service-item-text">
+                  Desarrollo de sitios web de alta calidad a nivel profesional.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="ícono de aplicación móvil" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Aplicaciones móviles</h4>
+
+                <p class="service-item-text">
+                  Desarrollo profesional de aplicaciones para iOS y Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="ícono de cámara" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Fotografía</h4>
+
+                <p class="service-item-text">
+                  Realizo fotos de alta calidad de cualquier categoría.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonios
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Equipo</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel Lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cristian</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Cristian fue contratado para crear una identidad corporativa. Estamos muy contentos con el trabajo
+                    realizado.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Jessica Miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Paul </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Paul  fue contratado para crear una identidad corporativa. Estamos muy contentos con el trabajo
+                    realizado.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Emily Evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Carlos</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Carlos fue contratado para crear una identidad corporativa. Estamos muy contentos con el trabajo
+                    realizado.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Henry William" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Roció </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Roció fue contratado para crear una identidad corporativa. Estamos muy contentos con el trabajo
+                    realizado.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - modal de testimonios
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="ícono de cita">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Carlos</h4>
+
+              <time datetime="2021-06-14">14 de junio, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Carlos fue contratado para crear una identidad corporativa. Estamos muy contentos con el trabajo
+                  realizado.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title"></h3>
+
+          <ul class="clients-list has-scrollbar">
+
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <article class="resume" data-page="resumen">
+
+        <header>
+          <h2 class="h2 article-title">Currículum</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Educación</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Preparatoria</h4>
+              <span>2020 — 2023</span>
+              <p class="timeline-text">
+                Como equipo, completamos la preparatoria, participando en actividades académicas y extracurriculares que
+                fortalecieron nuestras habilidades de comunicación, organización y trabajo en conjunto.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Secundaria</h4>
+              <span>2017 — 2020</span>
+              <p class="timeline-text">
+                En secundaria, trabajamos juntos en proyectos escolares y eventos grupales, desarrollando nuestra
+                capacidad de colaborar y resolver problemas en equipo.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experiencia</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Proyectos escolares</h4>
+              <span>2020 — 2023</span>
+              <p class="timeline-text">
+                Desarrollamos proyectos grupales enfocados en áreas como tecnología, ciencias y actividades culturales,
+                lo que nos permitió aplicar conocimientos prácticos y mejorar nuestras competencias colectivas.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Participación en concursos</h4>
+              <span>2018 — 2023</span>
+              <p class="timeline-text">
+                Participamos como equipo en diferentes concursos escolares, destacando en actividades que requerían
+                creatividad, innovación y trabajo en equipo.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Trabajo en equipo</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Comunicación</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Organización</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+  - #PORTFOLIO
+-->
+
+      <article class="portfolio" data-page="tutoriales">
+
+        <header>
+          <h2 class="h2 article-title">Tutoriales</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todos</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Diseño web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Aplicaciones</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Desarrollo web</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Seleccionar categoría</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Todos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Diseño web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Aplicaciones</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Desarrollo web</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="desarrollo web">
+              <a href="https://www.youtube.com/watch?v=MJkdaVFHrto" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/MJkdaVFHrto/hqdefault.jpg" alt="Aprende HTML y más"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aprende HTML y más</h3>
+
+                <p class="project-category">Desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="desarrollo web">
+              <a href="https://www.youtube.com/watch?v=mNbnV3aN3KA" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/mNbnV3aN3KA/hqdefault.jpg" alt="Cómo crear tu primera página web"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cómo crear tu primera página web</h3>
+
+                <p class="project-category">Desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="diseño web">
+              <a href="https://www.youtube.com/watch?v=ELSm-G201Ls" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/ELSm-G201Ls/hqdefault.jpg" alt="Diseño web para principiantes"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Diseño web para principiantes</h3>
+
+                <p class="project-category">Diseño web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aplicaciones">
+              <a href="https://www.youtube.com/watch?v=4Azc4Gs2nlU" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/4Azc4Gs2nlU/hqdefault.jpg" alt="Diseño web profesional"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Diseño web profesional</h3>
+
+                <p class="project-category">Aplicaciones</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="diseño web">
+              <a href="https://www.youtube.com/watch?v=z3NsAtCWfjw" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/z3NsAtCWfjw/hqdefault.jpg" alt="Cómo optimizar diseño web"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cómo optimizar diseño web</h3>
+
+                <p class="project-category">Diseño web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="diseño web">
+              <a href="https://www.youtube.com/watch?v=vJapzH_46a8" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/vJapzH_46a8/hqdefault.jpg"
+                    alt="Aplicaciones para programar en Android" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aplicaciones para programar en Android</h3>
+
+                <p class="project-category">Diseño web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="desarrollo web">
+              <a href="https://www.youtube.com/watch?v=wjAmGtDUGgo" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/wjAmGtDUGgo/hqdefault.jpg" alt="Aplicaciones avanzadas"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aplicaciones avanzadas</h3>
+
+                <p class="project-category">Desarrollo web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="aplicaciones">
+              <a href="https://www.youtube.com/watch?v=_JXzou-PUoQ" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.youtube.com/vi/_JXzou-PUoQ/hqdefault.jpg" alt="Cómo hacer apps en Android"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cómo hacer apps en Android</h3>
+
+                <p class="project-category">Aplicaciones</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+  - #BLOG
+-->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.hostinger.mx/tutoriales/mejores-sitios-para-aprender-a-programar-gratis">
+
+
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Programación</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-02-23">Feb 23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Mejores Sitios para Aprender a Programar Gratis</h3>
+
+                  <p class="blog-text">
+                    Descubre las mejores plataformas y recursos gratuitos para aprender a programar desde cero.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://fisiprogramacion.wordpress.com/">
+
+
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Programación</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2020-10-01">Oct 01, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Fisi Programación</h3>
+
+                  <p class="blog-text">
+                    Blog sobre programación, con recursos, tutoriales y consejos para aprender a programar.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://blog.soyhenry.com/guia-completa-para-empezar-a-programar/">
+
+
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Programación</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2020-05-10">May 10, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Guía Completa para Empezar a Programar</h3>
+
+                  <p class="blog-text">
+                    Aprende todo lo necesario para comenzar tu camino en la programación con esta guía.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://blog.mgpanel.org/">
+
+
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Programación</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-06-01">Jun 01, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">MG Panel Blog</h3>
+
+                  <p class="blog-text">
+                    Recursos y tutoriales sobre programación, desarrollo web y herramientas tecnológicas.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://talently.tech/blog/10-mejores-foros-programacion-aprender-ayudar/">
+
+
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Programación</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2020-06-10">Jun 10, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">10 Mejores Foros de Programación para Aprender y Ayudar</h3>
+
+                  <p class="blog-text">
+                    Conoce los foros más populares donde puedes aprender programación y resolver tus dudas.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://programacionymas.com/blog">
+
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Programación</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2020-09-15">Sep 15, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Programación y Más</h3>
+
+                  <p class="blog-text">
+                    Blog con tutoriales, noticias y recursos sobre programación y desarrollo web.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+  - #CONTACTO
+-->
+
+      <article class="contact" data-page="contacto">
+
+        <header>
+          <h2 class="h2 article-title">Contacto</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3388.5834255544837!2d-116.66429684999999!3d31.863549199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d89307a0f17a81%3A0x5c2f50e91aa73f8a!2sU.A.B.C.%2C%20Ensenada%2C%20B.C.!5e0!3m2!1ses-419!2smx!4v1732601089994!5m2!1ses-419!2smx"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulario de Contacto</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nombre completo" required
+                data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Dirección de correo electrónico" required
+                data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar mensaje</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+      <!-- Footer con Derechos de Autor -->
+      <footer class="footer">
+        <p>&copy; 2024 Cristian, Paul, Rocío, Carlos. Todos los derechos reservados.</p>
+      </footer>
+
+    </div>
+
+  </main>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
